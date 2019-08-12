@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Barbecue Barn </title>
+<link rel="stylesheet"
+href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+
+<link href="restaurantStyles.css"
+rel="stylesheet"
+type="text/css" />
+
+<link rel="stylesheet"
+href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"/>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+</script>
+        <style>
+            form {
+                text-align:left;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+        <h1> Barbecue Barn </h1>
+        <hr>
+        <ul class="nav nav-pills">
+            <li> <a href="home.html"><span class="glyphicon glyphicon-home"></span></a> </li>
+            <li> <a href="menu.html">Menu</a> </li>
+            <li class="active"> <a href="contactV6.html">Contact Us</a> </li>
+        </ul>
+        <hr> 
+        </div> <br/>
+        <form action="details" method="post">
+        Name: <input type="text" name="name"> <br/> <br/>
+        Email: <input type="text" name="email"> <br/> <br/>
+        Phone: <input type="text" name="phone"> <br/> <br/>
+        Reason for Inquiry: 
+        <select name="reason">
+            <option value="Catering">Catering</option>
+            <option value="Party">Private Party</option>
+            <option value="Feedback">Feedback</option>
+            <option value="Other">Other</option>
+        </select> <br/> <br/>
+        <textarea name="additionalInfo">
+        </textarea> <br/> <br/>
+        Have you been to Barbecue Barn?
+        <input type="radio" name="answer" value="Yes" checked/> <span style="font-weight:normal">Yes</span>
+        <input type="radio" name="answer" value="No" /> <span style="font-weight:normal">No</span>
+        <br/> <br/>
+        Best days to contact you:
+        <input type="checkbox" name="checked" value="M" /> <span style="font-weight:normal">M</span>
+        <input type="checkbox" name="checked" value="Tu" /> <span style="font-weight:normal">Tu</span>
+        <input type="checkbox" name="checked" value="W" /> <span style="font-weight:normal">W</span>
+        <input type="checkbox" name="checked" value="Th" /> <span style="font-weight:normal">Th</span>
+        <input type="checkbox" name="checked" value="F" /> <span style="font-weight:normal">F</span>
+        <br/> <br/>
+        <input type="submit" value="Send Request">
+        </form>
+        <br/> 
+     
+        <div>
+        <hr>
+        123 Fake Street, New York , NY, 10005
+        <br/> <br/>
+        555-555-5555
+        <hr>
+        </div>
+    </body>
+</html>
